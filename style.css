@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+.batContainer{
+    height: 550px;
+    width: 850px;
+    background-color: #191919;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.bat{
+    height: 200px;
+    width: 400px;
+    background-color: #ecaa53;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottomCircleL{
+    height: 250px;
+    width: 250px;
+    background-color: #191919;
+    border-radius: 50%;
+    position: absolute;
+    top: 339px;
+    left: 212px;
+}
+.bottomCircleR{
+    height: 250px;
+    width: 250px;
+    background-color: #191919;
+    border-radius: 50%;
+    position: absolute;
+    top: 339px;
+    right: 212px;
+}
+.leftCircle{
+    height: 310px;
+    width: 310px;
+    background-color: #191919;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 155px;
+}
+.rightCircle{
+    height: 310px;
+    width: 310px;
+    background-color: #191919;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    top: 155px;
+}
+.headSpace{
+    height: 200px;
+    width: 100px;
+    background-color: #191919;
+    position: absolute;
+    top: 50px;
+    left: 375px;
+    border-radius: 10px;
+}
+.head{
+    height: 60px;
+    width: 40px;
+    background-color: #ecaa53;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+.leftEye{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ecaa53;
+    position: absolute;
+    top: -7px;
+    left: -7px;
+}
+.rightEye{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ecaa53;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}
